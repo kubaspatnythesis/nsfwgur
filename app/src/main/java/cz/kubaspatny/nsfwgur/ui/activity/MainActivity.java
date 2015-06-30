@@ -1,5 +1,6 @@
 package cz.kubaspatny.nsfwgur.ui.activity;
 
+import android.content.Intent;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
 import android.support.v4.view.GravityCompat;
@@ -55,6 +56,10 @@ public class MainActivity extends AppCompatActivity {
         switch (item.getItemId()) {
             case android.R.id.home:
                 mDrawerLayout.openDrawer(GravityCompat.START);
+                return true;
+            case R.id.action_next:
+                Intent i = new Intent(this, GalleryPagerActivity.class);
+                startActivity(i);
                 return true;
         }
         return super.onOptionsItemSelected(item);
