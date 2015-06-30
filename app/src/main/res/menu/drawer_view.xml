@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_most_viral"
+            android:icon="@drawable/abc_btn_check_to_on_mtrl_000"
+            android:title="Most Viral" />
+        <item
+            android:id="@+id/nav_user_submitted"
+            android:icon="@drawable/abc_btn_check_to_on_mtrl_000"
+            android:title="User Submitted" />
+        <item
+            android:id="@+id/nav_nsfw"
+            android:icon="@drawable/abc_btn_check_to_on_mtrl_000"
+            android:title="NSFW" />
+    </group>
+
+    <item android:title="Profile">
+        <menu>
+            <item
+                android:id="@+id/nav_favorites"
+                android:icon="@drawable/abc_btn_check_to_on_mtrl_000"
+                android:title="Favorites" />
+            <item
+                android:id="@+id/nav_log_out"
+                android:icon="@drawable/abc_btn_check_to_on_mtrl_000"
+                android:title="Log out" />
+        </menu>
+    </item>
+
+</menu>
