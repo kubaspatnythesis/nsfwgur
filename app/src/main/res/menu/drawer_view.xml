@@ -19,6 +19,10 @@
     <item android:title="Profile">
         <menu>
             <item
+                android:id="@+id/nav_nsfw_settings"
+                android:icon="@drawable/abc_btn_check_to_on_mtrl_000"
+                android:title="NSFW Settings" />
+            <item
                 android:id="@+id/nav_favorites"
                 android:icon="@drawable/abc_btn_check_to_on_mtrl_000"
                 android:title="Favorites" />

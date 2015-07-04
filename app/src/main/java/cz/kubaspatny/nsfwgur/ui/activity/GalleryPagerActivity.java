@@ -16,6 +16,7 @@ public class GalleryPagerActivity extends AppCompatActivity {
         setContentView(R.layout.activity_gallery_pager);
 
         final Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        toolbar.setTitle("");
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
