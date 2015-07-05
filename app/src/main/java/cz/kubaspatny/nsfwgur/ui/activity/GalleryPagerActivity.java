@@ -58,6 +58,7 @@ public class GalleryPagerActivity extends AppCompatActivity {
               @Override
               public boolean onTouch(View view,
                                      MotionEvent motionEvent) {
+                  mListView.smoothScrollToPosition(0);
                   return true;
               }
           });
@@ -67,7 +68,7 @@ public class GalleryPagerActivity extends AppCompatActivity {
         TextView galleryUpvotes = (TextView) mStickyHeader.findViewById(R.id.gallery_upvotes);
         TextView gallerySincePosted = (TextView) mStickyHeader.findViewById(R.id.gallery_since_posted);
 
-        galleryTitle.setText("Since the Ice Cream Sandwich release, Roboto has been the standard typeface on Android. Since Froyo, Noto has been the standard typeface on Android for all languages not covered by Roboto.");
+        galleryTitle.setText("Since the Ice Cream Sandwich release, Roboto has been the standard typeface on Android.");
         galleryPoster.setText("ironman");
         galleryUpvotes.setText("11.8k");
         gallerySincePosted.setText("June 8, 2015");
