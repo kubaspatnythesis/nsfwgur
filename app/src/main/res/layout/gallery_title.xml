@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/gallery_title_container"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/gallery_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="8dp"
+        android:text="@string/lipsum_title"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"/>
+
+    <TextView
+        android:id="@+id/gallery_poster"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/gallery_title"
+        android:layout_marginRight="8dp"
+        android:text="@string/lipsum_username"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        android:textColor="@color/textColorAccent"/>
+
+    <TextView
+        android:id="@+id/gallery_upvotes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gallery_title"
+        android:layout_marginRight="8dp"
+        android:layout_toRightOf="@id/gallery_poster"
+        android:text="@string/lipsum_upvotes"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        android:textColor="@color/textColorSecondary"/>
+
+    <TextView
+        android:id="@+id/gallery_since_posted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gallery_title"
+        android:layout_marginRight="8dp"
+        android:layout_toRightOf="@id/gallery_upvotes"
+        android:text="@string/lipsum_since_posted"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        android:textColor="@color/textColorSecondary"/>
+
+</RelativeLayout>

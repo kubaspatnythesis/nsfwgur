@@ -378,6 +378,134 @@
 
             </RelativeLayout>
 
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorDivider"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/comment5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginBottom="8dp"
+                    android:text="@string/lipsum_short"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+                <TextView
+                    android:id="@+id/comment_poster5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@id/comment5"
+                    android:layout_marginRight="8dp"
+                    android:text="@string/lipsum_username"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                    android:textColor="@color/textColorAccent"/>
+
+                <TextView
+                    android:id="@+id/comment_upvotes5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/comment5"
+                    android:layout_marginRight="8dp"
+                    android:layout_toRightOf="@id/comment_poster5"
+                    android:text="@string/lipsum_upvotes"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                    android:textColor="@color/textColorSecondary"/>
+
+                <TextView
+                    android:id="@+id/comment_since_posted5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/comment5"
+                    android:layout_marginRight="8dp"
+                    android:layout_toRightOf="@id/comment_upvotes5"
+                    android:text="@string/lipsum_since_posted"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                    android:textColor="@color/textColorSecondary"/>
+
+                <TextView
+                    android:id="@+id/comment_replies5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@id/comment5"
+                    android:text="@string/lipsum_replies"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                    android:textColor="@color/textColorSecondary"/>
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorDivider"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/comment6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginBottom="8dp"
+                    android:text="@string/lipsum_comment"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+                <TextView
+                    android:id="@+id/comment_poster6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@id/comment6"
+                    android:layout_marginRight="8dp"
+                    android:text="@string/lipsum_username"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                    android:textColor="@color/textColorAccent"/>
+
+                <TextView
+                    android:id="@+id/comment_upvotes6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/comment6"
+                    android:layout_marginRight="8dp"
+                    android:layout_toRightOf="@id/comment_poster6"
+                    android:text="@string/lipsum_upvotes"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                    android:textColor="@color/textColorSecondary"/>
+
+                <TextView
+                    android:id="@+id/comment_since_posted6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/comment6"
+                    android:layout_marginRight="8dp"
+                    android:layout_toRightOf="@id/comment_upvotes6"
+                    android:text="@string/lipsum_since_posted"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                    android:textColor="@color/textColorSecondary"/>
+
+                <TextView
+                    android:id="@+id/comment_replies6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@id/comment6"
+                    android:text="@string/lipsum_replies"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                    android:textColor="@color/textColorSecondary"/>
+
+            </RelativeLayout>
+
         </LinearLayout>
 
     </android.support.v4.widget.NestedScrollView>
